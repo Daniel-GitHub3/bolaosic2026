@@ -494,8 +494,8 @@
   {
     "participantId": "alex-justino-dos-santos-silva",
     "matchId": "J011",
-    "homeGoals": null,
-    "awayGoals": null
+    "homeGoals": 8,
+    "awayGoals": 6
   },
   {
     "participantId": "alex-justino-dos-santos-silva",
@@ -560,14 +560,14 @@
   {
     "participantId": "alex-justino-dos-santos-silva",
     "matchId": "J022",
-    "homeGoals": null,
-    "awayGoals": null
+    "homeGoals": 7,
+    "awayGoals": 0
   },
   {
     "participantId": "alex-justino-dos-santos-silva",
     "matchId": "J023",
-    "homeGoals": null,
-    "awayGoals": null
+    "homeGoals": 5,
+    "awayGoals": 3
   },
   {
     "participantId": "alex-justino-dos-santos-silva",
@@ -1070,8 +1070,8 @@
   {
     "participantId": "marciano-neto",
     "matchId": "J011",
-    "homeGoals": null,
-    "awayGoals": null
+    "homeGoals": 7,
+    "awayGoals": 10
   },
   {
     "participantId": "marciano-neto",
@@ -1136,14 +1136,14 @@
   {
     "participantId": "marciano-neto",
     "matchId": "J022",
-    "homeGoals": null,
-    "awayGoals": null
+    "homeGoals": 3,
+    "awayGoals": 4
   },
   {
     "participantId": "marciano-neto",
     "matchId": "J023",
-    "homeGoals": null,
-    "awayGoals": null
+    "homeGoals": 4,
+    "awayGoals": 4
   },
   {
     "participantId": "marciano-neto",
@@ -2222,8 +2222,8 @@
   {
     "participantId": "bruno-bufaical-marra",
     "matchId": "J011",
-    "homeGoals": null,
-    "awayGoals": null
+    "homeGoals": 3,
+    "awayGoals": 1
   },
   {
     "participantId": "bruno-bufaical-marra",
@@ -2288,14 +2288,14 @@
   {
     "participantId": "bruno-bufaical-marra",
     "matchId": "J022",
-    "homeGoals": null,
-    "awayGoals": null
+    "homeGoals": 6,
+    "awayGoals": 7
   },
   {
     "participantId": "bruno-bufaical-marra",
     "matchId": "J023",
-    "homeGoals": null,
-    "awayGoals": null
+    "homeGoals": 1,
+    "awayGoals": 10
   },
   {
     "participantId": "bruno-bufaical-marra",
