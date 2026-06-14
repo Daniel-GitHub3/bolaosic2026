@@ -146,19 +146,23 @@ function calculateRanking() {
 }
 
 function sectionShell(phase, count, inner) {
-  return `<article class="card">
-   // <div class="card-head"><div><h2 class="card-title">${esc(phase.label)}</h2></div>
-    // <div class="legend-head">
-    <span class="lg exact">Placar exato</span>
-    <span class="lg result">Resultado correto</span>
-    <span class="lg none">Sem pontuação</span>
-    <span class="lg wait">Jogo pendente</span>
-    </div>
+ return `<article class="card">
+ <div class="card-head"><div><h2 class="card-title">${esc(phase.label)}</h2></div>
+
 <span class="badge">${count} item(ns)</span></div>
     <div class="table-scroll">${inner}</div>
   </article>`;
 }
 
+ /* <div class="legend-head">
+  <span class="lg exact">Placar exato</span>
+  <span class="lg result">Resultado correto</span>
+  <span class="lg none">Sem pontuação</span>
+  <span class="lg wait">Jogo pendente</span>
+    </div> */
+
+  
+  
 function renderResults() {
   const html = DATA.phaseOrder.map(phase => {
     const rows = DATA.matches.filter(m => m.phase === phase.id && containsFilter(m.id, m.home, m.away, phase.label, m.group));
