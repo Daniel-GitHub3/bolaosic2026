@@ -211,10 +211,10 @@ async function loadJson(path) {
 async function init() {
   try {
     const [phaseOrder, matches, participants, predictions] = await Promise.all([
-      loadJson('data/phase_order.json'),
-      loadJson('data/matches.json'),
-      loadJson('data/participants.json'),
-      loadJson('data/predictions.json')
+      loadJson('phase_order.json'),
+      loadJson('matches.json'),
+      loadJson('participants.json'),
+      loadJson('predictions.json')
     ]);
     DATA = { phaseOrder, matches, participants, predictions, ranking: [] };
     predMap = new Map(DATA.predictions.map(p => [`${p.participantId}|${p.matchId}`, p]));
