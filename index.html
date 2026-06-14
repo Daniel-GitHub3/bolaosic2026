@@ -164,8 +164,12 @@ function renderResults() {
 
 function renderPredictions() {
   const html = DATA.phaseOrder.map(phase => {
-    const matches = DATA.matches.filter(m => m.phase === phase.id && containsFilter(m.id, m.home, m.away, phase.label, m.group));
-    const filteredParticipants = DATA.participants.filter(p => containsFilter(p.name) || matches.some(m => containsFilter(m.id, m.home, m.away, phase.label)));
+    const query = normalizedText();
+    const matches = DATA.matches.filter(m => {if (m.phase !== phase.id) {return false;} if (!query) {return true;}
+                                              return [m.id, m.home, m.away, m.group, phase.label].join(' ').toLowerCase().includes(query);});;
+    const filteredParticipants = DATA.participants.filter(p => {if (!query) {return true;} if (p.name.toLowerCase().includes(query)) {return true;}
+                                                                // OU filtro por jogos/seleções
+                                                                return DATA.matches.some(m => m.phase === phase.id && [m.id, m.home, m.away, m.group, phase.label].join(' ').toLowerCase().includes(query));});
     const head = `<tr><th class="sticky-left">Participante</th>${matches.map(m => `<th class="center"><div><strong>${esc(m.id)}</strong></div><div style="text-transform:none;font-weight:400">${esc(m.homeFlag || '')} ${esc(m.home)} × ${esc(m.away)} ${esc(m.awayFlag || '')}</div></th>`).join('')}</tr>`;
     const body = matches.length ? filteredParticipants.map(p => `<tr><td class="sticky-left"><strong>${esc(p.name)}</strong></td>${matches.map(m => {
       const pred = predMap.get(`${p.id}|${m.id}`);
