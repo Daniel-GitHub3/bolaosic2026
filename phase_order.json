@@ -1,0 +1,38 @@
+[
+  {
+    "id": "FG-R1",
+    "label": "Fase de grupos — Rodada 1"
+  },
+  {
+    "id": "FG-R2",
+    "label": "Fase de grupos — Rodada 2"
+  },
+  {
+    "id": "FG-R3",
+    "label": "Fase de grupos — Rodada 3"
+  },
+  {
+    "id": "R32",
+    "label": "16 avos de final"
+  },
+  {
+    "id": "R16",
+    "label": "Oitavas de final"
+  },
+  {
+    "id": "QF",
+    "label": "Quartas de final"
+  },
+  {
+    "id": "SF",
+    "label": "Semifinal"
+  },
+  {
+    "id": "F",
+    "label": "Final"
+  },
+  {
+    "id": "3P",
+    "label": "Disputa do terceiro lugar"
+  }
+]

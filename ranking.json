@@ -1,0 +1,192 @@
+[
+  {
+    "id": "stefhani-gabriela-almeidalopes",
+    "name": "Stéfhani Gabriela AlmeidaLopes",
+    "points": 15,
+    "exact": 1,
+    "result": 2,
+    "none": 1,
+    "played": 4,
+    "position": 1
+  },
+  {
+    "id": "daniel-rodrigues-de-souza-santos",
+    "name": "Daniel Rodrigues de Souza Santos",
+    "points": 12,
+    "exact": 1,
+    "result": 1,
+    "none": 2,
+    "played": 4,
+    "position": 2
+  },
+  {
+    "id": "flavia-leticia-pereira-de-carvalho",
+    "name": "Flávia Leticia Pereira de Carvalho",
+    "points": 12,
+    "exact": 1,
+    "result": 1,
+    "none": 2,
+    "played": 4,
+    "position": 3
+  },
+  {
+    "id": "fabio-luis-da-fonseca-braga",
+    "name": "Fábio Luís da Fonseca Braga",
+    "points": 12,
+    "exact": 1,
+    "result": 1,
+    "none": 2,
+    "played": 4,
+    "position": 4
+  },
+  {
+    "id": "matheus-brizon-d-angelo-chaib",
+    "name": "Matheus Brizon D' Angelo Chaib",
+    "points": 12,
+    "exact": 1,
+    "result": 1,
+    "none": 2,
+    "played": 4,
+    "position": 5
+  },
+  {
+    "id": "jorge-carlos-jacinto-cardoso",
+    "name": "Jorge Carlos Jacinto Cardoso",
+    "points": 9,
+    "exact": 1,
+    "result": 0,
+    "none": 3,
+    "played": 4,
+    "position": 6
+  },
+  {
+    "id": "alex-justino-dos-santos-silva",
+    "name": "Alex Justino dos Santos Silva",
+    "points": 6,
+    "exact": 0,
+    "result": 2,
+    "none": 2,
+    "played": 4,
+    "position": 7
+  },
+  {
+    "id": "marciano-neto",
+    "name": "Marciano Neto",
+    "points": 6,
+    "exact": 0,
+    "result": 2,
+    "none": 2,
+    "played": 4,
+    "position": 8
+  },
+  {
+    "id": "matheus-lopes-rezende",
+    "name": "Matheus Lopes Rezende",
+    "points": 6,
+    "exact": 0,
+    "result": 2,
+    "none": 2,
+    "played": 4,
+    "position": 9
+  },
+  {
+    "id": "wandel-carlos-silva-brito",
+    "name": "Wandel Carlos Silva Brito",
+    "points": 6,
+    "exact": 0,
+    "result": 2,
+    "none": 2,
+    "played": 4,
+    "position": 10
+  },
+  {
+    "id": "bruno-bufaical-marra",
+    "name": "BRUNO BUFAICAL MARRA",
+    "points": 3,
+    "exact": 0,
+    "result": 1,
+    "none": 3,
+    "played": 4,
+    "position": 11
+  },
+  {
+    "id": "heloisa-de-ataide",
+    "name": "HELOISA DE ATAIDE",
+    "points": 3,
+    "exact": 0,
+    "result": 1,
+    "none": 3,
+    "played": 4,
+    "position": 12
+  },
+  {
+    "id": "hiago-peixoto",
+    "name": "Hiago Peixoto",
+    "points": 3,
+    "exact": 0,
+    "result": 1,
+    "none": 3,
+    "played": 4,
+    "position": 13
+  },
+  {
+    "id": "johanna-tassia-xavier-da-silva",
+    "name": "Johanna Tássia Xavier da Silva",
+    "points": 3,
+    "exact": 0,
+    "result": 1,
+    "none": 3,
+    "played": 4,
+    "position": 14
+  },
+  {
+    "id": "lucas-honorato-lopes",
+    "name": "Lucas Honorato Lopes",
+    "points": 3,
+    "exact": 0,
+    "result": 1,
+    "none": 3,
+    "played": 4,
+    "position": 15
+  },
+  {
+    "id": "paulo-cesar-ferreira-junior",
+    "name": "Paulo Cesar Ferreira Júnior",
+    "points": 3,
+    "exact": 0,
+    "result": 1,
+    "none": 3,
+    "played": 4,
+    "position": 16
+  },
+  {
+    "id": "renata-reis-alves",
+    "name": "Renata Reis Alves",
+    "points": 3,
+    "exact": 0,
+    "result": 1,
+    "none": 3,
+    "played": 4,
+    "position": 17
+  },
+  {
+    "id": "andressa-machado-xavier-francisco",
+    "name": "Andressa Machado Xavier Francisco",
+    "points": 0,
+    "exact": 0,
+    "result": 0,
+    "none": 4,
+    "played": 4,
+    "position": 18
+  },
+  {
+    "id": "geovana-dourado-souza-queiroz",
+    "name": "Geovana Dourado Souza Queiroz",
+    "points": 0,
+    "exact": 0,
+    "result": 0,
+    "none": 4,
+    "played": 4,
+    "position": 19
+  }
+]
