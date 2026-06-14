@@ -175,8 +175,7 @@ function renderResults() {
 function renderPredictions() {
   const html = DATA.phaseOrder.map(phase => {
     const query = normalizedText();
-    const matches = DATA.matches.filter(m => {if (m.phase !== phase.id) {return false;} if (!query) {return true;}
-                                              return [m.id, m.home, m.away, m.group, phase.label].join(' ').toLowerCase().includes(query);});;
+    const matches = DATA.matches.filter(m => m.phase === phase.id);
     const filteredParticipants = DATA.participants.filter(p => {if (!query) {return true;} if (p.name.toLowerCase().includes(query)) {return true;}
                                                                 // OU filtro por jogos/seleções
                                                                 return DATA.matches.some(m => m.phase === phase.id && [m.id, m.home, m.away, m.group, phase.label].join(' ').toLowerCase().includes(query));});
