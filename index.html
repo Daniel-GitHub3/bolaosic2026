@@ -201,7 +201,7 @@ byId('search').addEventListener('input', renderAll);
 
 async function loadJson(path) {
   const response = await fetch(path, { cache: 'no-store' });
-  if(!response.ok) throw new Error(`Falha ao carregar ${path}: ${response.status}`);
+  if(!response.ok) throw new Error(`Falha ao carregar ${path}: ${response.status}`);}
   const lastModified = response.headers.get("last-modified");
   if(last-modified)
     {const date = new Date(lastModified);
