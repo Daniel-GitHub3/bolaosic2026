@@ -180,7 +180,7 @@ function renderRanking() {
     <td>#${r.position}</td><td><strong>${esc(r.name)}</strong></td><td class="center points">${r.points}</td>
     <td class="center">${r.exact}</td><td class="center">${r.result}</td><td class="center">${r.none}</td><td class="center">${r.played}</td>
   </tr>`).join('');
-  byId('ranking').innerHTML = `<article class="card"><div class="card-head"><div><h2 class="card-title">Ranking geral</h2><p class="card-sub">Os três primeiros colocados estão destacados em cores transparentes. O ranking é calculado no navegador a partir de matches.json e predictions.json.</p></div><span class="badge">${rows.length} participante(s)</span></div><div class="table-scroll"><table class="rank-table"><thead><tr><th>Posição</th><th>Participante</th><th class="center">Pontos</th><th class="center">Acertos de placar</th><th class="center">Acertos de resultado<br><small>(sem placar exato)</small></th><th class="center">Palpites sem pontuação</th><th class="center">Jogos apurados</th></tr></thead><tbody>${body}</tbody></table></div></article>`;
+  byId('ranking').innerHTML = `<article class="card"><div class="card-head"><div><h2 class="card-title">Ranking geral</h2></div><span class="badge">${rows.length} participante(s)</span></div><div class="table-scroll"><table class="rank-table"><thead><tr><th>Posição</th><th>Participante</th><th class="center">Pontos</th><th class="center">Acertos de placar</th><th class="center">Acertos de resultado<br><small>(sem placar exato)</small></th><th class="center">Palpites sem pontuação</th><th class="center">Jogos apurados</th></tr></thead><tbody>${body}</tbody></table></div></article>`;
 }
 
 function renderAll() {
