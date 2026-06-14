@@ -200,12 +200,23 @@ document.querySelectorAll('.tab').forEach(btn => btn.addEventListener('click', (
 byId('search').addEventListener('input', renderAll);
 
 async function loadJson(path) {
-  const response = await fetch(path, { cache: 'no-store' });
-  if(!response.ok) throw new Error(`Falha ao carregar ${path}: ${response.status}`);}
-  const lastModified = response.headers.get("last-modified");
-  if(last-modified)
-    {const date = new Date(lastModified);
-     document.getElementById("last-update").innerText = "Última atualização: " + date.toLocaleString("pt-BR");}
+  const response = await fetch(path, {
+    cache: 'no-store'
+  });
+  if (!response.ok) {
+    throw new Error(`Falha ao carregar ${path}`);
+  }
+  // usa matches.json como referência
+  if (path.includes("matches.json")) {
+    const lastModified =
+      response.headers.get("last-modified");
+    if (lastModified) {
+      const date = new Date(lastModified);
+      document.getElementById("last-update").innerText =
+        "Última atualização: " +
+        date.toLocaleString("pt-BR");
+    }
+  }
   return await response.json();
 }
 
