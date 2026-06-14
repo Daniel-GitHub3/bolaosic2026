@@ -126,8 +126,8 @@
     "away": "Japão",
     "homeFlag": "🇳🇱",
     "awayFlag": "🇯🇵",
-    "homeGoals": null,
-    "awayGoals": null
+    "homeGoals": 2,
+    "awayGoals": 2
   },
   {
     "id": "J011",
