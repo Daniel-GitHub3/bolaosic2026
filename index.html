@@ -63,9 +63,9 @@
     <header>
       <div class="top">
         <div>
-          <div class="eyebrow">Página estática · GitHub Pages · HTML puro</div>
+          <div class="eyebrow" id="last-update">Última atualização: carregando...</div>
           <h1>Bolão Copa 2026</h1>
-          <p class="subtitle">Dados carregados de arquivos JSON externos. Pontuação: 9 pontos por placar exato, 3 pontos por resultado correto e 0 ponto quando não houver acerto.</p>
+          <p class="subtitle">Pontuação: 9 pontos por placar exato, 3 pontos por resultado correto e 0 ponto quando não houver acerto.</p>
         </div>
         <nav class="tabs" aria-label="Abas">
           <button class="tab active" data-tab="predictions">Palpites</button>
@@ -77,8 +77,6 @@
 
     <div class="toolbar">
       <input id="search" class="search" placeholder="Filtrar por participante, seleção, jogo ou fase...">
-      <div class="note"><strong>Estrutura atual:</strong> os dados estão separados em <code>data/phase_order.json</code>, <code>data/matches.json</code>, <code>data/participants.json</code> e <code>data/predictions.json</code>. Para atualizar o bolão, substitua apenas esses JSONs. O ranking é recalculado automaticamente no navegador.</div>
-    </div>
 
     <main>
       <section id="loading" class="card" style="padding:18px;">Carregando dados...</section>
@@ -86,7 +84,6 @@
       <section id="ranking" class="tab-panel hidden"></section>
       <section id="results" class="tab-panel hidden"></section>
     </main>
-    <footer>Arquivo HTML estático para GitHub Pages. Observação: ao abrir por duplo clique, alguns navegadores bloqueiam leitura de JSON local; no GitHub Pages funciona normalmente.</footer>
   </div>
 
 <script>
@@ -139,7 +136,7 @@ function calculateRanking() {
 
 function sectionShell(phase, count, inner) {
   return `<article class="card">
-    <div class="card-head"><div><h2 class="card-title">${esc(phase.label)}</h2><p class="card-sub">Tabela com altura padronizada e rolagem própria.</p></div><span class="badge">${count} item(ns)</span></div>
+    <div class="card-head"><div><h2 class="card-title">${esc(phase.label)}</h2></div><span class="badge">${count} item(ns)</span></div>
     <div class="table-scroll">${inner}</div>
   </article>`;
 }
@@ -205,6 +202,10 @@ byId('search').addEventListener('input', renderAll);
 async function loadJson(path) {
   const response = await fetch(path, { cache: 'no-store' });
   if(!response.ok) throw new Error(`Falha ao carregar ${path}: ${response.status}`);
+  const lastModified = response.headers.get("last-modified");
+  if(last-modified)
+    {const date = new Date(lastModified);
+     document.getElementById("last-update").innerText = "Última atualização: " + date.toLocaleString("pt-BR");}
   return await response.json();
 }
 
