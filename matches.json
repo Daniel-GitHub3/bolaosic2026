@@ -130,6 +130,19 @@
     "awayGoals": null
   },
   {
+    "id": "J010",
+    "phase": "FG-R1",
+    "date": "14/06/2026",
+    "time": "20:00",
+    "group": "E",
+    "home": "Costa do Marfim",
+    "away": "Equador",
+    "homeFlag": "🇨🇮",
+    "awayFlag": "🇪🇨",
+    "homeGoals": null,
+    "awayGoals": null
+  },
+  {
     "id": "J011",
     "phase": "FG-R1",
     "date": "14/06/2026",
@@ -256,6 +269,32 @@
     "away": "Congo",
     "homeFlag": "🇵🇹",
     "awayFlag": "🇨🇩",
+    "homeGoals": null,
+    "awayGoals": null
+  },
+  {
+    "id": "J020",
+    "phase": "FG-R1",
+    "date": "17/06/2026",
+    "time": "14:00",
+    "group": "L",
+    "home": "Inglaterra",
+    "away": "Croácia",
+    "homeFlag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+    "awayFlag": "🇭🇷",
+    "homeGoals": null,
+    "awayGoals": null
+  },
+  {
+    "id": "J020",
+    "phase": "FG-R1",
+    "date": "17/06/2026",
+    "time": "14:00",
+    "group": "L",
+    "home": "Gana",
+    "away": "Panamá",
+    "homeFlag": "🇬🇭",
+    "awayFlag": "🇵🇦",
     "homeGoals": null,
     "awayGoals": null
   },
