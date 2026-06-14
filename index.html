@@ -37,7 +37,7 @@
     .table-scroll { max-height:330px; overflow:auto; padding:0px; position:relative; isolation:isolate }
     table { width:max-content; border-collapse:separate; border-spacing:0; font-size:13px; min-width:100%; position:relative}
     /*th { text-align:left; color:white; text-transform:uppercase; font-size:11px; letter-spacing:.05em; background:#4f6153; position:sticky; top:0; z-index:100; padding:12px; border-bottom:2px solid var(--line); }*/
-    th { position:sticky; top:0; z-index:50; background:#4f6153; color:white; padding:12px 10px; vertical-align:top; overflow:hidden; border-bottom:3px solid var(--line); }
+    th { position:sticky; top:0; left:0; z-index:200; background:#4f6153; color:white; padding:12px 10px; vertical-align:top; overflow:hidden; border-bottom:3px solid var(--line); }
     td { padding:10px; border-bottom:1px solid #eef2f7; vertical-align:middle; }
     tbody tr:nth-child(odd) { background:rgba(180,180,180,.72); }
     tbody tr:nth-child(even) { background:rgba(100,100,100,.72); }
@@ -48,7 +48,7 @@
     .pred.result { background:#dbeafe; color:#1d4ed8; }
     .pred.none { background:#ffe4e6; color:#be123c; }
     .pred.wait { background:#f1f5f9; color:#64748b; }
-    .sticky-left { position:sticky; left:0; z-index:4; background:#7d9983; box-shadow:1px 0 0 #4f6153; }
+    .sticky-corner { position:sticky; left:0; top:0; z-index:300; background:#7d9983; box-shadow:1px 0 0 #4f6153; }
     .rank-table { border-spacing:0 8px; min-width:780px; }
     .rank-table td { border:0; background:#fff; }
     .rank-table tr.top1 td { background:var(--gold); }
@@ -172,7 +172,7 @@ function renderPredictions() {
     const filteredParticipants = DATA.participants.filter(p => {if (!query) {return true;} if (p.name.toLowerCase().includes(query)) {return true;}
                                                                 // OU filtro por jogos/seleções
                                                                 return DATA.matches.some(m => m.phase === phase.id && [m.id, m.home, m.away, m.group, phase.label].join(' ').toLowerCase().includes(query));});
-    const head = `<tr><th class="sticky-left">Participante</th>${matches.map(m => `<th class="center"><div><strong>${esc(m.id)}</strong></div><div style="text-transform:none;font-weight:400">${esc(m.homeFlag || '')} ${esc(m.home)} × ${esc(m.away)} ${esc(m.awayFlag || '')}</div></th>`).join('')}</tr>`;
+    const head = `<tr><th class="sticky-corner">Participante</th>${matches.map(m => `<th class="center"><div><strong>${esc(m.id)}</strong></div><div style="text-transform:none;font-weight:400">${esc(m.homeFlag || '')} ${esc(m.home)} × ${esc(m.away)} ${esc(m.awayFlag || '')}</div></th>`).join('')}</tr>`;
     const body = matches.length ? filteredParticipants.map(p => `<tr><td class="sticky-left"><strong>${esc(p.name)}</strong></td>${matches.map(m => {
       const pred = predMap.get(`${p.id}|${m.id}`);
       const s = score(m,pred);
