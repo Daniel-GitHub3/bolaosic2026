@@ -139,8 +139,8 @@
     "away": "Equador",
     "homeFlag": "🇨🇮",
     "awayFlag": "🇪🇨",
-    "homeGoals": null,
-    "awayGoals": null
+    "homeGoals": 1,
+    "awayGoals": 0
   },
   {
     "id": "J012",
@@ -152,8 +152,8 @@
     "away": "Tunísia",
     "homeFlag": "🇸🇪",
     "awayFlag": "🇹🇳",
-    "homeGoals": null,
-    "awayGoals": null
+    "homeGoals": 5,
+    "awayGoals": 1
   },
   {
     "id": "J013",
