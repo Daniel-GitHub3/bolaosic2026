@@ -165,8 +165,8 @@
     "away": "Cabo Verde",
     "homeFlag": "🇪🇸",
     "awayFlag": "🇨🇻",
-    "homeGoals": null,
-    "awayGoals": null
+    "homeGoals": 0,
+    "awayGoals": 0
   },
   {
     "id": "J014",
