@@ -191,8 +191,8 @@
     "away": "Uruguai",
     "homeFlag": "🇸🇦",
     "awayFlag": "🇺🇾",
-    "homeGoals": null,
-    "awayGoals": null
+    "homeGoals": 1,
+    "awayGoals": 1
   },
   {
     "id": "J016",
@@ -204,8 +204,8 @@
     "away": "Nova Zelândia",
     "homeFlag": "🇮🇷",
     "awayFlag": "🇳🇿",
-    "homeGoals": null,
-    "awayGoals": null
+    "homeGoals": 2,
+    "awayGoals": 2
   },
   {
     "id": "J017",
