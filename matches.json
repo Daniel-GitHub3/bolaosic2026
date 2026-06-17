@@ -256,8 +256,8 @@
     "away": "Jordânia",
     "homeFlag": "🇦🇹",
     "awayFlag": "🇯🇴",
-    "homeGoals": null,
-    "awayGoals": null
+    "homeGoals": 3,
+    "awayGoals": 1
   },
   {
     "id": "J021",
