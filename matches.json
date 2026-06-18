@@ -282,8 +282,8 @@
     "away": "Croácia",
     "homeFlag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
     "awayFlag": "🇭🇷",
-    "homeGoals": null,
-    "awayGoals": null
+    "homeGoals": 4,
+    "awayGoals": 2
   },
   {
     "id": "J023",
@@ -295,8 +295,8 @@
     "away": "Panamá",
     "homeFlag": "🇬🇭",
     "awayFlag": "🇵🇦",
-    "homeGoals": null,
-    "awayGoals": null
+    "homeGoals": 1,
+    "awayGoals": 0
   },
   {
     "id": "J024",
@@ -308,8 +308,8 @@
     "away": "Colômbia",
     "homeFlag": "🇺🇿",
     "awayFlag": "🇨🇴",
-    "homeGoals": null,
-    "awayGoals": null
+    "homeGoals": 1,
+    "awayGoals": 3
   },
   {
     "id": "J073",
