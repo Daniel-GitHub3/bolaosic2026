@@ -312,6 +312,58 @@
     "awayGoals": 3
   },
   {
+    "id": "J025",
+    "phase": "FG-R2",
+    "date": "18/06/2026",
+    "time": "13:00",
+    "group": "A",
+    "home": "República Tcheca",
+    "away": "África do Sul",
+    "homeFlag": "🇨🇿",
+    "awayFlag": "🇿🇦",
+    "homeGoals": null,
+    "awayGoals": null
+  },
+  {
+    "id": "J026",
+    "phase": "FG-R2",
+    "date": "18/06/2026",
+    "time": "16:00",
+    "group": "A",
+    "home": "Suíça",
+    "away": "Bósnia",
+    "homeFlag": "🇨🇭",
+    "awayFlag": "🇧🇦",
+    "homeGoals": null,
+    "awayGoals": null
+  },
+  {
+    "id": "J027",
+    "phase": "FG-R2",
+    "date": "18/06/2026",
+    "time": "19:00",
+    "group": "A",
+    "home": "Canadá",
+    "away": "Catar",
+    "homeFlag": "🇨🇦",
+    "awayFlag": "🇶🇦",
+    "homeGoals": null,
+    "awayGoals": null
+  },
+  {
+    "id": "J028",
+    "phase": "FG-R2",
+    "date": "18/06/2026",
+    "time": "22:00",
+    "group": "A",
+    "home": "México",
+    "away": "Coreia do Sul",
+    "homeFlag": "🇲🇽",
+    "awayFlag": "🇰🇷",
+    "homeGoals": null,
+    "awayGoals": null
+  },
+  {
     "id": "J073",
     "phase": "R32",
     "date": "28/06/2026",
