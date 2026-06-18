@@ -334,8 +334,8 @@
     "away": "Bósnia",
     "homeFlag": "🇨🇭",
     "awayFlag": "🇧🇦",
-    "homeGoals": null,
-    "awayGoals": null
+    "homeGoals": 4,
+    "awayGoals": 1
   },
   {
     "id": "J027",
