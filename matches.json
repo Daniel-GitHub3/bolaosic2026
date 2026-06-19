@@ -373,8 +373,8 @@
     "away": "Austrália",
     "homeFlag": "🇺🇸",
     "awayFlag": "🇦🇺",
-    "homeGoals": null,
-    "awayGoals": null
+    "homeGoals": 2,
+    "awayGoals": 0
   },
   {
     "id": "J030",
