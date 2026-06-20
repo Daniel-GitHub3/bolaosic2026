@@ -386,8 +386,8 @@
     "away": "Marrocos",
     "homeFlag": "🏴",
     "awayFlag": "🇲🇦",
-    "homeGoals": null,
-    "awayGoals": null
+    "homeGoals": 0,
+    "awayGoals": 1
   },
   {
     "id": "J031",
@@ -399,8 +399,8 @@
     "away": "Haiti",
     "homeFlag": "🇧🇷",
     "awayFlag": "🇭🇹",
-    "homeGoals": null,
-    "awayGoals": null
+    "homeGoals": 3,
+    "awayGoals": 0
   },
   {
     "id": "J032",
@@ -412,8 +412,8 @@
     "away": "Paraguai",
     "homeFlag": "🇹🇷",
     "awayFlag": "🇵🇾",
-    "homeGoals": null,
-    "awayGoals": null
+    "homeGoals": 0,
+    "awayGoals": 1
   },
   {
     "id": "J033",
