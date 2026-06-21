@@ -451,8 +451,8 @@
     "away": "Curaçao",
     "homeFlag": "🇪🇨",
     "awayFlag": "🇨🇼",
-    "homeGoals": null,
-    "awayGoals": null
+    "homeGoals": 0,
+    "awayGoals": 0
   },
   {
     "id": "J036",
@@ -464,8 +464,8 @@
     "away": "Japão",
     "homeFlag": "🇹🇳",
     "awayFlag": "🇯🇵",
-    "homeGoals": null,
-    "awayGoals": null
+    "homeGoals": 0,
+    "awayGoals": 4
   },
   {
     "id": "J037",
@@ -477,8 +477,8 @@
     "away": "Arábia Saudita",
     "homeFlag": "🇪🇸",
     "awayFlag": "🇸🇦",
-    "homeGoals": null,
-    "awayGoals": null
+    "homeGoals": 4,
+    "awayGoals": 0
   },
   {
     "id": "J038",
