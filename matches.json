@@ -490,8 +490,8 @@
     "away": "Irã",
     "homeFlag": "🇧🇪",
     "awayFlag": "🇮🇷",
-    "homeGoals": null,
-    "awayGoals": null
+    "homeGoals": 0,
+    "awayGoals": 0
   },
   {
     "id": "J039",
@@ -503,8 +503,8 @@
     "away": "Cabo Verde",
     "homeFlag": "🇺🇾",
     "awayFlag": "🇨🇻",
-    "homeGoals": null,
-    "awayGoals": null
+    "homeGoals": 2,
+    "awayGoals": 2
   },
   {
     "id": "J040",
@@ -516,8 +516,8 @@
     "away": "Egito",
     "homeFlag": "🇳🇿",
     "awayFlag": "🇪🇬",
-    "homeGoals": null,
-    "awayGoals": null
+    "homeGoals": 0,
+    "awayGoals": 3
   },
   {
     "id": "J041",
