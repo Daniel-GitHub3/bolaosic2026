@@ -542,8 +542,8 @@
     "away": "Iraque",
     "homeFlag": "🇫🇷",
     "awayFlag": "🇮🇶",
-    "homeGoals": null,
-    "awayGoals": null
+    "homeGoals": 3,
+    "awayGoals": 0
   },
   {
     "id": "J043",
@@ -555,8 +555,8 @@
     "away": "Senegal",
     "homeFlag": "🇳🇴",
     "awayFlag": "🇸🇳",
-    "homeGoals": null,
-    "awayGoals": null
+    "homeGoals": 3,
+    "awayGoals": 2
   },
   {
     "id": "J044",
@@ -568,8 +568,8 @@
     "away": "Argélia",
     "homeFlag": "🇯🇴",
     "awayFlag": "🇩🇿",
-    "homeGoals": null,
-    "awayGoals": null
+    "homeGoals": 1,
+    "awayGoals": 2
   },
   {
     "id": "J045",
