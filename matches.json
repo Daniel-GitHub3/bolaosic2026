@@ -581,8 +581,8 @@
     "away": "Uzbequistão",
     "homeFlag": "🇵🇹",
     "awayFlag": "🇺🇿",
-    "homeGoals": null,
-    "awayGoals": null
+    "homeGoals": 5,
+    "awayGoals": 0
   },
   {
     "id": "J046",
