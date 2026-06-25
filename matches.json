@@ -711,8 +711,8 @@
     "away": "Alemanha",
     "homeFlag": "🇪🇨",
     "awayFlag": "🇩🇪",
-    "homeGoals": null,
-    "awayGoals": null
+    "homeGoals": 2,
+    "awayGoals": 1
   },
   {
     "id": "J056",
@@ -724,8 +724,8 @@
     "away": "Costa do Marfim",
     "homeFlag": "🇨🇼",
     "awayFlag": "🇨🇮",
-    "homeGoals": null,
-    "awayGoals": null
+    "homeGoals": 0,
+    "awayGoals": 2
   },
   {
     "id": "J057",
