@@ -737,8 +737,8 @@
     "away": "Suécia",
     "homeFlag": "🇯🇵",
     "awayFlag": "🇸🇪",
-    "homeGoals": null,
-    "awayGoals": null
+    "homeGoals": 1,
+    "awayGoals": 1
   },
   {
     "id": "J058",
@@ -750,8 +750,8 @@
     "away": "Holanda",
     "homeFlag": "🇹🇳",
     "awayFlag": "🇳🇱",
-    "homeGoals": null,
-    "awayGoals": null
+    "homeGoals": 1,
+    "awayGoals": 3
   },
   {
     "id": "J059",
@@ -763,8 +763,8 @@
     "away": "EUA",
     "homeFlag": "🇹🇷",
     "awayFlag": "🇺🇸",
-    "homeGoals": null,
-    "awayGoals": null
+    "homeGoals": 3,
+    "awayGoals": 2
   },
   {
     "id": "J060",
@@ -776,8 +776,8 @@
     "away": "Austrália",
     "homeFlag": "🇵🇾",
     "awayFlag": "🇦🇺",
-    "homeGoals": null,
-    "awayGoals": null
+    "homeGoals": 0,
+    "awayGoals": 0
   },
   {
     "id": "J061",
