@@ -789,8 +789,8 @@
     "away": "França",
     "homeFlag": "🇳🇴",
     "awayFlag": "🇫🇷",
-    "homeGoals": null,
-    "awayGoals": null
+    "homeGoals": 1,
+    "awayGoals": 4
   },
   {
     "id": "J062",
@@ -802,8 +802,8 @@
     "away": "Iraque",
     "homeFlag": "🇸🇳",
     "awayFlag": "🇮🇶",
-    "homeGoals": null,
-    "awayGoals": null
+    "homeGoals": 5,
+    "awayGoals": 0
   },
   {
     "id": "J063",
@@ -815,8 +815,8 @@
     "away": "Arábia Saudita",
     "homeFlag": "🇨🇻",
     "awayFlag": "🇸🇦",
-    "homeGoals": null,
-    "awayGoals": null
+    "homeGoals": 0,
+    "awayGoals": 0
   },
   {
     "id": "J064",
@@ -828,8 +828,8 @@
     "away": "Espanha",
     "homeFlag": "🇺🇾",
     "awayFlag": "🇪🇸",
-    "homeGoals": null,
-    "awayGoals": null
+    "homeGoals": 0,
+    "awayGoals": 1
   },
   {
     "id": "J065",
