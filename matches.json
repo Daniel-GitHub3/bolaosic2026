@@ -867,8 +867,8 @@
     "away": "Inglaterra",
     "homeFlag": "🇵🇦",
     "awayFlag": "🏴",
-    "homeGoals": null,
-    "awayGoals": null
+    "homeGoals": 0,
+    "awayGoals": 2
   },
   {
     "id": "J068",
@@ -880,8 +880,8 @@
     "away": "Gana",
     "homeFlag": "🇭🇷",
     "awayFlag": "🇬🇭",
-    "homeGoals": null,
-    "awayGoals": null
+    "homeGoals": 2,
+    "awayGoals": 1
   },
   {
     "id": "J069",
@@ -893,8 +893,8 @@
     "away": "Portugal",
     "homeFlag": "🇨🇴",
     "awayFlag": "🇵🇹",
-    "homeGoals": null,
-    "awayGoals": null
+    "homeGoals": 0,
+    "awayGoals": 0
   },
   {
     "id": "J070",
@@ -906,8 +906,8 @@
     "away": "Uzbequistão",
     "homeFlag": "🇨🇩",
     "awayFlag": "🇺🇿",
-    "homeGoals": null,
-    "awayGoals": null
+    "homeGoals": 3,
+    "awayGoals": 1
   },
   {
     "id": "J071",
@@ -919,8 +919,8 @@
     "away": "Áustria",
     "homeFlag": "🇩🇿",
     "awayFlag": "🇦🇹",
-    "homeGoals": null,
-    "awayGoals": null
+    "homeGoals": 3,
+    "awayGoals": 3
   },
   {
     "id": "J072",
@@ -932,8 +932,8 @@
     "away": "Argentina",
     "homeFlag": "🇯🇴",
     "awayFlag": "🇦🇷",
-    "homeGoals": null,
-    "awayGoals": null
+    "homeGoals": 1,
+    "awayGoals": 3
   },
   {
     "id": "J073",
@@ -945,8 +945,8 @@
     "away": "Canadá",
     "homeFlag": "🇿🇦",
     "awayFlag": "🇨🇦",
-    "homeGoals": null,
-    "awayGoals": null
+    "homeGoals": 0,
+    "awayGoals": 1
   },
   {
     "id": "J074",
@@ -984,8 +984,8 @@
     "away": "Japão",
     "homeFlag": "🇧🇷",
     "awayFlag": "🇯🇵",
-    "homeGoals": null,
-    "awayGoals": null
+    "homeGoals": 2,
+    "awayGoals": 1
   },
   {
     "id": "J077",
