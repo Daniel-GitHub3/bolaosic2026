@@ -971,8 +971,8 @@
     "away": "Paraguai",
     "homeFlag": "🇩🇪",
     "awayFlag": "🇵🇾",
-    "homeGoals": null,
-    "awayGoals": null
+    "homeGoals": 1,
+    "awayGoals": 1
   },
   {
     "id": "J075",
