@@ -1036,8 +1036,8 @@
     "away": "Congo",
     "homeFlag": "🏴",
     "awayFlag": "🇨🇩",
-    "homeGoals": null,
-    "awayGoals": null
+    "homeGoals": 2,
+    "awayGoals": 1
   },
   {
     "id": "J082",
