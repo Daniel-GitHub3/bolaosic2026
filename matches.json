@@ -1010,8 +1010,8 @@
     "away": "Suécia",
     "homeFlag": "🇫🇷",
     "awayFlag": "🇸🇪",
-    "homeGoals": null,
-    "awayGoals": null
+    "homeGoals": 3,
+    "awayGoals": 0
   },
   {
     "id": "J079",
@@ -1023,8 +1023,8 @@
     "away": "Equador",
     "homeFlag": "🇲🇽",
     "awayFlag": "🇪🇨",
-    "homeGoals": null,
-    "awayGoals": null
+    "homeGoals": 2,
+    "awayGoals": 0
   },
   {
     "id": "J080",
