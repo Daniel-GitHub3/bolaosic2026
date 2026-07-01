@@ -1049,8 +1049,8 @@
     "away": "Senegal",
     "homeFlag": "🇧🇪",
     "awayFlag": "🇸🇳",
-    "homeGoals": null,
-    "awayGoals": null
+    "homeGoals": 3,
+    "awayGoals": 2
   },
   {
     "id": "J081",
