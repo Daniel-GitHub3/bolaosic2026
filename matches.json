@@ -1075,8 +1075,8 @@
     "away": "Áustria",
     "homeFlag": "🇪🇸",
     "awayFlag": "🇦🇹",
-    "homeGoals": null,
-    "awayGoals": null
+    "homeGoals": 3,
+    "awayGoals": 0
   },
   {
     "id": "J083",
@@ -1088,8 +1088,8 @@
     "away": "Croácia",
     "homeFlag": "🇵🇹",
     "awayFlag": "🇭🇷",
-    "homeGoals": null,
-    "awayGoals": null
+    "homeGoals": 2,
+    "awayGoals": 1
   },
   {
     "id": "J085",
@@ -1101,8 +1101,8 @@
     "away": "Argélia",
     "homeFlag": "🇨🇭",
     "awayFlag": "🇩🇿",
-    "homeGoals": null,
-    "awayGoals": null
+    "homeGoals": 2,
+    "awayGoals": 0
   },
   {
     "id": "J088",
