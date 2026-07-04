@@ -1153,8 +1153,8 @@
     "away": "Marrocos",
     "homeFlag": "🇨🇦",
     "awayFlag": "🇲🇦",
-    "homeGoals": null,
-    "awayGoals": null
+    "homeGoals": 0,
+    "awayGoals": 3
   },
   {
     "id": "J089",
