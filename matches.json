@@ -1166,8 +1166,8 @@
     "away": "França",
     "homeFlag": "🇵🇾",
     "awayFlag": "🇫🇷",
-    "homeGoals": null,
-    "awayGoals": null
+    "homeGoals": 0,
+    "awayGoals": 1
   },
   {
     "id": "J091",
