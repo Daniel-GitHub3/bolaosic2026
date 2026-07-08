@@ -1244,8 +1244,8 @@
     "away": "Colômbia",
     "homeFlag": "🇨🇭",
     "awayFlag": "🇨🇴",
-    "homeGoals": null,
-    "awayGoals": null
+    "homeGoals": 0,
+    "awayGoals": 0
   },
   {
     "id": "J097",
