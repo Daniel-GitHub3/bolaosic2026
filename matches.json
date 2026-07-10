@@ -1249,7 +1249,7 @@
   },
   {
     "id": "J097",
-    "phase": "R8",
+    "phase": "QF",
     "date": "09/07/2026",
     "time": "17:00",
     "group": "",
@@ -1262,7 +1262,7 @@
   },
   {
     "id": "J098",
-    "phase": "R8",
+    "phase": "QF",
     "date": "10/07/2026",
     "time": "16:00",
     "group": "",
@@ -1275,7 +1275,7 @@
   },
   {
     "id": "J099",
-    "phase": "R8",
+    "phase": "QF",
     "date": "11/07/2026",
     "time": "18:00",
     "group": "",
@@ -1288,7 +1288,7 @@
   },
   {
     "id": "J100",
-    "phase": "R8",
+    "phase": "QF",
     "date": "11/07/2026",
     "time": "22:00",
     "group": "",
@@ -1296,19 +1296,6 @@
     "away": "Suíça",
     "homeFlag": "🇦🇷",
     "awayFlag": "🇨🇭",
-    "homeGoals": null,
-    "awayGoals": null
-  },
-  {
-    "id": "J097",
-    "phase": "QF",
-    "date": "09/07/2026",
-    "time": "A definir",
-    "group": "",
-    "home": "Vencedor J089",
-    "away": "Vencedor J090",
-    "homeFlag": "🏳️",
-    "awayFlag": "🏳️",
     "homeGoals": null,
     "awayGoals": null
   },
