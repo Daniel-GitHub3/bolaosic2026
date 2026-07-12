@@ -1283,8 +1283,8 @@
     "away": "Inglaterra",
     "homeFlag": "🇳🇴",
     "awayFlag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
-    "homeGoals": null,
-    "awayGoals": null
+    "homeGoals": 1,
+    "awayGoals": 2
   },
   {
     "id": "J100",
@@ -1296,8 +1296,8 @@
     "away": "Suíça",
     "homeFlag": "🇦🇷",
     "awayFlag": "🇨🇭",
-    "homeGoals": null,
-    "awayGoals": null
+    "homeGoals": 3,
+    "awayGoals": 1
   },
   {
     "id": "J101",
