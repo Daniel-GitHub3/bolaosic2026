@@ -1335,8 +1335,8 @@
     "away": "Inglaterra",
     "homeFlag": "🇫🇷",
     "awayFlag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
-    "homeGoals": null,
-    "awayGoals": null
+    "homeGoals": 4,
+    "awayGoals": 6
   },
   {
     "id": "J104",
