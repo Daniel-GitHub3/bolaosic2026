@@ -1348,7 +1348,7 @@
     "away": "Argentina",
     "homeFlag": "🇪🇸",
     "awayFlag": "🇦🇷",
-    "homeGoals": null,
-    "awayGoals": null
+    "homeGoals": 1,
+    "awayGoals": 0
   }
 ]
